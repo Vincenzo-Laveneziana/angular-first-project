@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+/* Application-wide Styles */
+
+//Setup
+@import 'partials/_variables.scss';
+@import 'partials/_commons.scss';
+
+//Components
+@import 'partials/_header.scss';
+@import 'partials/_heroes.scss';
+@import 'partials/_footer.scss';
+

@@ -1,0 +1,17 @@
+/****************** 
+  Header
+******************/
+
+.head {
+    @include flex-center-center(row,center,center);
+
+    width: 100%;
+    height: 80px;
+    background-color: rgb(44, 44, 44);
+    margin-bottom:20px;
+
+    img {
+        width: 120px;
+        height: auto;
+    }
+}

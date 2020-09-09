@@ -1,0 +1,32 @@
+<div class="container">
+    <h2 class="title">Lista Peluche Super Eroi</h2>
+    <div class="heroes">
+        <div class="card" *ngFor="let hero of heroes">
+
+            <div class="card_img">
+                <img [src]="hero.imagePath">
+            </div>
+
+            <div class="card_info">
+                <h2>{{hero.id}}: {{hero.name}}</h2> 
+                
+                <span>Universo: {{hero.universe}}</span> 
+
+                <span>Altezza: {{hero.altezza}}</span> 
+
+                <div class="price">
+                    <h4 class="delete">{{hero.prezzo}} €</h4>
+                    <span>Prezzo:</span>
+                    <h2>{{hero.prezzo_scontanto}} €</h2> 
+                </div>
+               
+                <button class="btn btn_orange">Aggiungi al carrello</button>
+
+                <div class="{{hero.disp}}">
+                    Disponibilità
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
